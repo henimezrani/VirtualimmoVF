@@ -1,0 +1,9 @@
+{}
+
+{Agent_EmailAddress : String, Agent_name : String, Agent_Surname: String, Agent_dateOfBirth : Date, Agent_PhoneNumber : Number,Agent_password : String}
+
+{Appointement : Date}
+
+{VirtualTour_ExpirationDate : Date, VirtualTour_file : ??, VirtualTour_Plan2D : ??, VirtualTour_3DBIMRVTIFC : ??, MatterTags : Number}
+
+{Admin_emailAddress : String, Admin_password : String}

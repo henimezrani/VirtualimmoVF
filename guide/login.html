@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="no-js">
+			<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>Login</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="description" content="Site de mise en vitrine virtuelle" />
+			<meta name="keywords" content="3d tour, Virtual immo, Plan 2D, plan 3d, vise virtuelle" />
+			<meta name="author" content="Slim Haj Romdhane" />
+			
+			
+			<link rel="stylesheet" href="css/csslogin.css">
+
+		
+			</head>
+		
+			<body background="images\backlogin.jpg" background-size: cover >
+			
+			<br>
+			<br>
+			<div class="cont">
+				<div class="form sign-in">
+					<h2>Bienvenue!</h2>
+				<label>
+					<span>Email</span>
+					<input type="email" />
+				</label>
+				<label>
+					<span>Mot de passe</span>
+					<input type="password" />
+				</label>
+				<p class="forgot-pass">Mot de passe oublié?</p>
+				<button type="button" class="submit">Se connecter</button>
+			
+			</div>
+			<div class="sub-cont">
+				<div class="img">
+					<div class="img__text m--up">
+					
+						<h3>Toujours pas de compte? Rejoignez nous!<h3>
+					</div>
+					<div class="img__text m--in">
+					
+						<h3>Si vous avez déjà un compte, connectez vous.<h3>
+					</div>
+					<div class="img__btn">
+						<span class="m--up">Créer</span>
+						<span class="m--in">Sign In</span>
+					</div>
+				</div>
+				<div class="form sign-up">
+					<h2>Créez mon compte</h2>
+					<label>
+						<span>Prénom</span>
+						<input type="text" />
+					</label>
+					<label>
+						<span>Nom</span>
+						<input type="text" />
+					</label>
+					<label>
+						<span>Date de naissance</span>
+						<input type="text" />
+					</label>
+					<label>
+						<span>Numéro de téléphone</span>
+						<input type="text" />
+					</label>
+					<label>
+						<span>Email</span>
+						<input type="email" />
+					</label>
+					<label>
+						<span>Mot de passe</span>
+						<input type="password" />
+					</label>
+					<button type="button" class="submit">Créer</button>
+					
+				</div>
+			</div>
+		</div>
+	
+		<script>
+				document.querySelector('.img__btn').addEventListener('click', function() {
+				document.querySelector('.cont').classList.toggle('s--signup');
+			});
+		</script>
+	</body>
+</html>

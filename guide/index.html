@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Virtual Immo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Site de mise en vitrine virtuelle" />
+    <meta
+      name="keywords"
+      content="3d tour, Virtual immo, Plan 2D, plan 3d, vise virtuelle"
+    />
+    <meta name="author" content="Slim Haj Romdhane" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="Virtual Immo" />
+    <meta property="og:image" content="" />
+    <meta
+      property="og:url"
+      content="https://www.facebook.com/VirtualImmo-103893149150259"
+    />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,600,400italic,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/pink.css" />
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Loader -->
+    <div class="fh5co-loader"></div>
+
+    <div id="fh5co-page">
+      <section id="fh5co-header">
+        <div class="container">
+          <nav role="navigation">
+            <ul class="pull-left left-menu">
+              <li><a href="index.html">Acceuil</a></li>
+              <li><a href="tour.html">Nos services</a></li>
+              <li><a href="pricing.html">Nos packs</a></li>
+            </ul>
+            <h1 id="fh5co-logo">
+              <a href="index.html"
+                ><img
+                  src="images\virtuallogobanderol.png"
+                  alt="logo"
+                  height="100px"
+                  width="300px"
+              /></a>
+            </h1>
+            <ul class="pull-right right-menu">
+              <li><a href="about.html">Contact</a></li>
+              <li>
+                <a href="http://localhost:3000">Dashboard</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <!-- #fh5co-header -->
+
+      <section id="fh5co-hero" class="js-fullheight" data-next="yes">
+        <video id="background-video" autoplay loop muted>
+          <source src="video\videoacceuil.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <!-- END #fh5co-hero -->
+
+      <section id="fh5co-projects">
+        <div class="container">
+          <div class="row row-bottom-padded-md">
+            <div class="col-md-10 col-md-offset-1 text-center">
+              <h2 class="fh5co-lead animate-box">
+                La virtualisation à porter de main
+              </h2>
+              <p class="fh5co-sub-lead animate-box">
+                Virtual Immo est une entreprise digitale qui vous propose ses
+                services pour réaliser la virtualisation en 3D de vos biens
+                immobiliers, commerce, bureaux, galerie d’art et musée, hôtel,
+                restaurant….<br />Numérisez, visualisez, personnaliser votre
+                espace pour créer des expériences 3d et VR interactive d’une
+                qualité exceptionnel, avec un réalisme poussée a l’extrême,
+                créant ainsi une interactivité et un lien engageant entre votre
+                public et votre espace.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2 col-sm-6 col-xxs-11 animate-box">
+              <a href="tour.html" class="fh5co-project-item">
+                <img
+                  src="images\hotel4.jpg"
+                  alt="Image"
+                  class="img-responsive"
+                />
+                <div class="fh5co-text">
+                  <h2>Immobilier résidentiel</h2>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-2 col-sm-6 col-xxs-11 animate-box">
+              <a href="tour.html" class="fh5co-project-item">
+                <img
+                  src="images\bureau4real.jpg"
+                  alt="Image"
+                  class="img-responsive"
+                />
+                <div class="fh5co-text">
+                  <h2>Immobilier professionnel</h2>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-2 col-sm-6 col-xxs-11 animate-box">
+              <a href="tour.html" class="fh5co-project-item">
+                <img src="images\art.jpg" alt="Image" class="img-responsive" />
+                <div class="fh5co-text">
+                  <h2>Galeries d'art et Musées</h2>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-2 col-sm-6 col-xxs-11 animate-box">
+              <a href="tour.html" class="fh5co-project-item">
+                <img src="images\cmm.jpg" alt="Image" class="img-responsive" />
+                <div class="fh5co-text">
+                  <h2>Virtual Commerce</h2>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-2 col-sm-6 col-xxs-11 animate-box">
+              <a href="tour.html" class="fh5co-project-item">
+                <img
+                  src="images\hotel4real.jpg"
+                  alt="Image"
+                  class="img-responsive"
+                />
+                <div class="fh5co-text">
+                  <h2>Hôtels et Restaurants</h2>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-2 col-sm-6 col-xxs-11 animate-box">
+              <a href="tour.html" class="fh5co-project-item">
+                <img
+                  src="images\archit.jpg"
+                  alt="Image"
+                  class="img-responsive"
+                />
+                <div class="fh5co-text">
+                  <h2>Architecte</h2>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END #fh5co-projects -->
+      <section id="fh5co-features-2">
+        <div class="container">
+          <div class="col-md-6 col-md-push-6">
+            <figure class="fh5co-feature-image animate-box">
+              <iframe
+                width="703"
+                height="480"
+                src="https://my.matterport.com/show/?m=c3z4VK24XWT"
+                frameborder="0"
+                allowfullscreen
+                allow="xr-spatial-tracking"
+              ></iframe
+              >">
+            </figure>
+          </div>
+          <div class="col-md-6 col-md-pull-7">
+            <span class="fh5co-label animate-box"></span>
+            <h2 class="fh5co-lead animate-box">Quel est le processus ?</h2>
+            <div class="fh5co-feature">
+              <div class="fh5co-icon animate-box">
+                <i class="icon-cube"></i>
+              </div>
+              <div class="fh5co-text animate-box">
+                <h3>Contactez-nous ou créer un compte</h3>
+              </div>
+            </div>
+            <div class="fh5co-feature">
+              <div class="fh5co-icon animate-box">
+                <i class="icon-cube"></i>
+              </div>
+              <div class="fh5co-text animate-box">
+                <h3>Choisissez votre pack ou vos services individuellement</h3>
+              </div>
+            </div>
+            <div class="fh5co-feature">
+              <div class="fh5co-icon animate-box">
+                <i class="icon-cube"></i>
+              </div>
+              <div class="fh5co-text animate-box">
+                <h3>Prenez un rendez-vous avec l’agence</h3>
+              </div>
+            </div>
+            <div class="fh5co-feature">
+              <div class="fh5co-icon animate-box">
+                <i class="icon-cube"></i>
+              </div>
+              <div class="fh5co-text animate-box">
+                <h3>Shooting de la propriété</h3>
+              </div>
+            </div>
+            <div class="fh5co-feature">
+              <div class="fh5co-icon animate-box">
+                <i class="icon-cube"></i>
+              </div>
+              <div class="fh5co-text animate-box">
+                <h3>
+                  Recevez et télécharger votre rendu sur votre espace personnel
+                </h3>
+              </div>
+            </div>
+
+            <div class="fh5co-btn-action animate-box">
+              <a href="tour.html" class="btn btn-primary btn-cta">Voir plus</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="fh5co-features">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 animate-box">
+              <div class="fh5co-feature">
+                <div class="fh5co-icon">
+                  <i class="icon-google-wallet"></i>
+                </div>
+                <h3>Visite virtuelle 24/7</h3>
+                <p>
+                  Optimisez et accélérez vos ventes et locations immobilières
+                  grâce aux visites virtuelles disponibles 24h sur 24.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 animate-box">
+              <div class="fh5co-feature">
+                <div class="fh5co-icon">
+                  <i
+                    ><img
+                      src="https://img.icons8.com/ios/50/000000/real-estate.png"
+                      color="#F83A3A"
+                  /></i>
+                </div>
+                <h3>Immersion interactive</h3>
+                <p>
+                  Scénarisez l'exploration de votre environnement virtuel avec
+                  des éléments intéractifs afin d'enrichir l'expérience et les
+                  connaissances des visiteurs.
+                </p>
+              </div>
+            </div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="col-md-4 col-sm-6 col-xs-12 animate-box">
+              <div class="fh5co-feature">
+                <div class="fh5co-icon">
+                  <i class="icon-google-plus"></i>
+                </div>
+                <h3>Meilleur visibilité</h3>
+                <p>
+                  Virtualisez votre commerce/entreprise pour qu’il puisse être
+                  visité sur Google Street View générant ainsi un trafic
+                  exponentiel et un meilleur référencement de votre site.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 animate-box">
+              <div class="fh5co-feature">
+                <div class="fh5co-icon">
+                  <i class="icon-picture-o"></i>
+                </div>
+                <h3>Plan 2d et 3D</h3>
+                <p>
+                  Après capture avec le Matterport, nous assemblons les données
+                  dans un modèle 2D ou 3D immersif et générons des plans
+                  d’étages aux formats PDF et PNG, des nuages de points, des
+                  fichiers OBJ,DWG.
+                </p>
+              </div>
+            </div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="col-md-4 col-sm-6 col-xs-12 animate-box">
+              <div class="fh5co-feature">
+                <div class="fh5co-icon">
+                  <i class="icon-file-photo-o"></i>
+                </div>
+                <h3>Réalité Virtuelle</h3>
+                <p>
+                  CoreVRMatterport transforme une visite virtuelle 3D en
+                  expérience de réalité virtuelle immersive. Les casques VR
+                  portent cette sensation d’immersion au niveau supérieur en
+                  donnant la sensation d’être vraiment dans un lieu.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 animate-box">
+              <div class="fh5co-feature">
+                <div class="fh5co-icon">
+                  <i
+                    ><img
+                      src="https://img.icons8.com/ios/50/000000/real-estate.png"
+                  /></i>
+                </div>
+                <h3>Photos HDR et Vidéos</h3>
+                <p>
+                  La caméra Matterport 3D de 134 mégapixels capture les couleurs
+                  et la profondeur. Nous exploitons une technologie de pointe
+                  pour proposer des photos 4K HDR 2D et 360° prêtes à imprimer
+                  et des vidéos pour les réseaux sociaux.
+                </p>
+              </div>
+            </div>
+            <div class="clearfix visible-sm-block"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- END #fh5co-features -->
+
+      <section id="fh5co-features-2">
+        <div class="container">
+          <div class="col-md-6 col-md-push-6">
+            <figure class="fh5co-feature-image animate-box">
+              <iframe
+                width="703"
+                height="680"
+                src="https://www.youtube.com/embed/6-pL8PiV85s"
+                padding-right="100 px"
+                title="D&G   TOKYO AOYAMA"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe
+              >">
+            </figure>
+          </div>
+          <div class="col-md-6 col-md-pull-7">
+            <span class="fh5co-label animate-box"></span>
+            <h2 class="fh5co-lead animate-box">
+              Un outil de communication<br />puissant
+            </h2>
+            <div class="fh5co-feature">
+              <div class="fh5co-icon animate-box">
+                <i class="icon-check2"></i>
+              </div>
+              <div class="fh5co-text animate-box">
+                <h3>Mattertag</h3>
+                <p>
+                  Intégrer des interactivités dans vos visites virtuelles grâce
+                  à des liens qui vous redirige vers votre site Internet,
+                  boutique en ligne.
+                </p>
+              </div>
+            </div>
+            <div class="fh5co-feature">
+              <div class="fh5co-icon animate-box">
+                <i class="icon-check2"></i>
+              </div>
+              <div class="fh5co-text animate-box">
+                <h3>Augmenter vos ventes</h3>
+                <p>
+                  Avec une visite virtuelle en 3D, vos prospects peuvent visiter
+                  24 heures sur 24, et 7 jours sur 7.
+                </p>
+              </div>
+            </div>
+            <div class="fh5co-feature">
+              <div class="fh5co-icon animate-box">
+                <i class="icon-check2"></i>
+              </div>
+              <div class="fh5co-text animate-box">
+                <h3>Augmenter votre visibilité sur internet</h3>
+                <p>
+                  Publiez votre visite virtuelle sur Google Street View ainsi
+                  vos clients, en recherchant votre commerce sur Google,
+                  pourront accéder à votre visite virtuelle de plusieurs
+                  endroits : moteurs de recherche, Google Maps, Google Street
+                  View, votre site Internet
+                </p>
+              </div>
+            </div>
+
+            <div class="fh5co-btn-action animate-box">
+              <a href="tour.html" class="btn btn-primary btn-cta">Voir plus</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END #fh5co-features-2 -->
+
+      <section id="fh5co-subscribe">
+        <div class="container">
+          <h3 class="animate-box">
+            <label for="email">Subscribe to our newsletter</label>
+          </h3>
+          <form action="#" method="post" class="animate-box">
+            <i class="fh5co-icon icon-paper-plane"></i>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Enter your email"
+              id="email"
+              name="email"
+            />
+            <input type="submit" value="Send" class="btn btn-primary" />
+          </form>
+        </div>
+      </section>
+      <!-- END #fh5co-subscribe -->
+
+      <footer id="fh5co-footer">
+        <div class="container">
+          <div class="row row-bottom-padded-md">
+            <div class="col-md-3 col-sm-6 col-xs-12 animate-box">
+              <div class="fh5co-footer-widget">
+                <h3>Company</h3>
+                <ul class="fh5co-links">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Feature Tour</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Team</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 animate-box">
+              <div class="fh5co-footer-widget">
+                <h3>Support</h3>
+                <ul class="fh5co-links">
+                  <li><a href="#">Knowledge Base</a></li>
+                  <li><a href="#">24/7 Call Support</a></li>
+                  <li><a href="#">Video Demos</a></li>
+                  <li><a href="#">Terms of Use</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 animate-box">
+              <div class="fh5co-footer-widget">
+                <h3>Contact</h3>
+                <p>
+                  <a href="mailto:bm.ziedbenmahmoud@gmail.com"
+                    >bm.ziedbenmahmoud@gmail.com</a
+                  >
+                  <br />
+                  36 avenue de Carthage <br />
+                  La Marsa, Tunisie <br />
+                  <a href="tel:+21656654000">+216 56 654 000</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 animate-box">
+              <div class="fh5co-footer-widget">
+                <h3>Suivez-nous</h3>
+                <ul class="fh5co-social">
+                  <li>
+                    <a href="#"><i class="icon-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/VirtualImmo-103893149150259"
+                      ><i class="icon-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icon-google-plus"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icon-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fh5co-copyright animate-box">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <p class="fh5co-left">
+                  <small
+                    >&copy; 2022
+                    <a href="index.html"
+                      ><img
+                        src="images\virtuallogobanderol.png"
+                        alt="logo"
+                        height="110px"
+                        width="300px"
+                    /></a>
+                  </small>
+                </p>
+                <p class="fh5co-right">
+                  <small class="fh5co-right"
+                    >Designed by
+                    <a
+                      href="https://www.linkedin.com/in/slim-h-0856b1138/"
+                      target="_blank"
+                      >SlimHRLLC</a
+                    ></small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- END #fh5co-footer -->
+    </div>
+    <!-- END #fh5co-page -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+
+    <!-- Main JS (Do not remove) -->
+    <script src="js/main.js"></script>
+
+    <!-- 
+	INFO:
+	jQuery Cookie for Demo Purposes Only. 
+	The code below is to toggle the layout to boxed or wide 
+	-->
+    <script src="js/jquery.cookie.js"></script>
+    <script>
+      $(function () {
+        if ($.cookie("layoutCookie") != "") {
+          $("body").addClass($.cookie("layoutCookie"));
+        }
+
+        $('a[data-layout="boxed"]').click(function (event) {
+          event.preventDefault();
+          $.cookie("layoutCookie", "boxed", { expires: 7, path: "/" });
+          $("body").addClass($.cookie("layoutCookie")); // the value is boxed.
+        });
+
+        $('a[data-layout="wide"]').click(function (event) {
+          event.preventDefault();
+          $("body").removeClass($.cookie("layoutCookie")); // the value is boxed.
+          $.removeCookie("layoutCookie", { path: "/" }); // remove the value of our cookie 'layoutCookie'
+        });
+      });
+    </script>
+  </body>
+</html>
